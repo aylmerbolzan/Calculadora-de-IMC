@@ -11,6 +11,9 @@
   <body>
     <div class="container">
       <div id="calc-container">
+        <div id="icon">
+          <img src="./img/img.png" alt="icon" class="icon" />
+        </div>
         <h2>Calculadora de IMC</h2>
         <form id="imc-form">
           <div class="form-inputs">
@@ -20,7 +23,7 @@
                 type="text"
                 name="height"
                 id="height"
-                placeholder="Exemplo 1,75"
+                placeholder="Exemplo: 1,75"
               />
             </div>
             <div class="form-control">
@@ -29,7 +32,7 @@
                 type="text"
                 name="weight"
                 id="weight"
-                placeholder="Exemplo 70,5"
+                placeholder="Exemplo: 70,5"
               />
             </div>
           </div>
@@ -44,11 +47,11 @@
         <p id="imc-info">Situação atual: <span></span></p>
         <h3>Confira as classificações:</h3>
         <div id="imc-table">
-            <div class="table-header">
-                <h4>IMC</h4>
-                <h4>Classificação</h4>
-                <h4>Obesidade</h4>
-            </div>
+          <div class="table-header">
+            <h4>IMC</h4>
+            <h4>Classificação</h4>
+            <h4>Obesidade</h4>
+          </div>
         </div>
         <button id="back-btn">Voltar</button>
       </div>

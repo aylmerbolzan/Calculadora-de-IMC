@@ -8,12 +8,12 @@
 }
 
 body {
-  background-color: #090e22;
+  background-color: #eeebeb;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: #fff;
+  color: #4b5e96;
 }
 
 .hide {
@@ -23,8 +23,23 @@ body {
 .container {
   min-width: 400px;
   min-height: 400px;
-  background-color: #1d1e33;
+  background-color: #fff;
   padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px #a8b2b6;
+}
+
+.icon {
+  width: 5rem;
+  position: absolute;
+  padding-bottom: 5px;
+}
+
+#icon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 /* IMC Form */
@@ -50,11 +65,18 @@ body {
 .form-control label {
   font-weight: bold;
   margin-bottom: 0.6rem;
-  color: #ccc;
+  color: #5B6FAC;
 }
 
 .form-control input {
   padding: 1rem 0.5rem;
+  border-radius: 1rem;
+  border: 2px solid #CFD0D1;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: 2px solid #2FB2F6;
 }
 
 .action-control {
@@ -67,12 +89,13 @@ body {
 button {
   text-transform: uppercase;
   padding: 1rem 1.5rem;
-  background-color: #f44236;
+  background-color: #2FB2F6;
   border: none;
   color: #fff;
   cursor: pointer;
   opacity: 0.9;
   flex: 1;
+  border-radius: 1rem;
 }
 
 button:hover {
@@ -98,12 +121,13 @@ button:hover {
 
 #imc-info {
   font-size: 1.4rem;
-  color: #ccc;
+  font-weight: bold;
+  color: #394a80;
 }
 
 #result-container h3 {
   margin-top: 1rem;
-  color: #dfdfdf;
+  color: #8591b9;
 }
 
 #imc-table {
@@ -113,7 +137,7 @@ button:hover {
 
 .table-header {
   font-weight: bold;
-  color: #ccc;
+  color: #394a80;
 }
 
 .table-header,
@@ -154,3 +178,4 @@ button:hover {
 .high {
   color: #db1912;
 }
+
